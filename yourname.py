@@ -68,7 +68,7 @@ def pedestrians(path):
 
 if __name__ == '__main__':
 
-    path = 'VIC_Assignment2/img1'
+    path = 'img1'
     # path = 'Images_to_test'
-    pedestrians(path)
+    detections = pedestrians(path)
 
